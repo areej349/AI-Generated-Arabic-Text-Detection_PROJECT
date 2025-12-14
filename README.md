@@ -19,12 +19,15 @@ This project aims to build a system capable of distinguishing between human-writ
 
 
 # Project Structure
-'''
+
+## Project Structure
+
+```text
 AI-Generated-Arabic-Text-Detection/
 │
 ├── data/
-│   ├── raw/               
-│   └── processed/           
+│   ├── raw/
+│   └── processed/
 │
 ├── notebooks/
 │   ├── phase_1_data_acquisition.ipynb
@@ -32,12 +35,12 @@ AI-Generated-Arabic-Text-Detection/
 │   ├── phase_3_feature_engineering.ipynb
 │   └── phase_4_modeling.ipynb
 │
-├── models/                  
+├── models/
 │
 ├── reports/
 │   ├── final_model_results.csv
 │   ├── best_model_summary.csv
-│   └── figures/             
+│   └── figures/
 │
 ├── src/
 │   ├── data_preparation.py
@@ -45,10 +48,11 @@ AI-Generated-Arabic-Text-Detection/
 │   ├── utils.py
 │   └── visualization.py
 │
-├── requirements.txt         
+├── requirements.txt
 ├── .gitignore
 └── README.md
-'''
+
+
 
 # Project Outputs
 
