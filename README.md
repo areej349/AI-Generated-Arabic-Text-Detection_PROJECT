@@ -1,5 +1,5 @@
 # Project Title: AI-Generated Arabic Text Detection
-Dataset:https://huggingface.co/datasets/KFUPM-JRCAI/arabic-generated-abstracts
+Dataset: https://huggingface.co/datasets/KFUPM-JRCAI/arabic-generated-abstracts
 # Project Objective
 
 This project aims to build a system capable of distinguishing between human-written Arabic text and AI-generated Arabic text. The goal is to support content authenticity and reliability in Arabic digital platforms.
