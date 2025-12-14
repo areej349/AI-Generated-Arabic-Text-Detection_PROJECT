@@ -68,7 +68,7 @@ AI-Generated-Arabic-Text-Detection/
 
 ```mermaid
 flowchart TD
-    A[Dataset Collection<br/>Human & AI Texts]
+    A[Dataset Collection<br/>Human and AI Texts]
     B[Data Preprocessing<br/>Cleaning · Normalization · Tokenization]
     C[Feature Engineering<br/>Linguistic + Statistical]
     D[Traditional ML Models<br/>Logistic Regression<br/>Random Forest<br/>XGBoost]
