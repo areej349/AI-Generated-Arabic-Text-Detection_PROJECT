@@ -1,0 +1,24 @@
+# Environments
+.venv/
+env/
+__pycache__/
+.env
+venv310/
+
+# Models & checkpoints
+models/
+*.pkl
+*.bin
+*.safetensors
+checkpoint-*/
+
+# Data
+data/processed/
+data/raw/
+
+# Notebooks outputs
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
