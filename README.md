@@ -20,8 +20,6 @@ This project aims to build a system capable of distinguishing between human-writ
 
 # Project Structure
 
-## Project Structure
-
 ```text
 AI-Generated-Arabic-Text-Detection/
 │
@@ -64,6 +62,7 @@ AI-Generated-Arabic-Text-Detection/
 - Evaluation reports and visualizations
 
 - A structured and reproducible project workflow
+  
 
   # Report
   
