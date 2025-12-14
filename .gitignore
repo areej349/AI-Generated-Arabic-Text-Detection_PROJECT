@@ -6,15 +6,9 @@ __pycache__/
 venv310/
 
 # Models & checkpoints
-models/
-*.pkl
-*.bin
-*.safetensors
 checkpoint-*/
 
-# Data
-data/processed/
-data/raw/
+
 
 # Notebooks outputs
 .ipynb_checkpoints/
