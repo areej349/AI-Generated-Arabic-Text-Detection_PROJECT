@@ -61,9 +61,3 @@ AI-Generated-Arabic-Text-Detection/
 
 - A structured and reproducible project workflow
   
-
-  # Report#
-
-
-```
-
