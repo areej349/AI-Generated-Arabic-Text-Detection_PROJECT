@@ -1,6 +1,4 @@
-# Project Title
-
-AI-Generated Arabic Text Detection
+# Project Title: AI-Generated Arabic Text Detection
 Dataset:https://huggingface.co/datasets/KFUPM-JRCAI/arabic-generated-abstracts
 # Project Objective
 
