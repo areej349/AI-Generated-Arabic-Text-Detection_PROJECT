@@ -57,7 +57,16 @@ AI-Generated-Arabic-Text-Detection/
 
 # Project Outputs
 
-flowchart LR
+- Evaluation reports and visualizations
+
+- A structured and reproducible project workflow
+  
+
+  # Report#
+
+  flowchart LR
+
+subgraph PIPELINE["AI-Generated Arabic Text Detection Pipeline"]
     A[Dataset Collection<br/>Human & AI Texts] --> 
     B[Data Preprocessing<br/>Cleaning · Normalization · Tokenization] --> 
     C[Feature Engineering<br/>Linguistic + Statistical]
@@ -70,11 +79,5 @@ flowchart LR
 
     F --> G[Confusion Matrix<br/>& Error Analysis]
     G --> H[Best Model Selection<br/>AraBERT]
+end
 
-
-- Evaluation reports and visualizations
-
-- A structured and reproducible project workflow
-  
-
-  # Report#
