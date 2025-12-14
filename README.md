@@ -67,18 +67,26 @@ AI-Generated-Arabic-Text-Detection/
 flowchart LR
 
 subgraph PIPELINE["AI-Generated Arabic Text Detection Pipeline"]
-    A[Dataset Collection<br/>Human & AI Texts] --> 
-    B[Data Preprocessing<br/>Cleaning · Normalization · Tokenization] --> 
+    A[Dataset Collection<br/>Human & AI Texts]
+    B[Data Preprocessing<br/>Cleaning · Normalization · Tokenization]
     C[Feature Engineering<br/>Linguistic + Statistical]
 
-    C --> D[Traditional ML Models<br/>Logistic Regression<br/>Random Forest<br/>XGBoost]
-    C --> E[Deep Learning Model<br/>AraBERT Fine-Tuning]
+    D[Traditional ML Models<br/>Logistic Regression<br/>Random Forest<br/>XGBoost]
+    E[Deep Learning Model<br/>AraBERT Fine-Tuning]
 
-    D --> F[Model Evaluation<br/>Accuracy · Precision · Recall · F1 · ROC-AUC]
+    F[Model Evaluation<br/>Accuracy · Precision · Recall · F1 · ROC-AUC]
+    G[Confusion Matrix<br/>& Error Analysis]
+    H[Best Model Selection<br/>AraBERT]
+
+    A --> B
+    B --> C
+    C --> D
+    C --> E
+    D --> F
     E --> F
-
-    F --> G[Confusion Matrix<br/>& Error Analysis]
-    G --> H[Best Model Selection<br/>AraBERT]
+    F --> G
+    G --> H
 end
+
 ```
 
