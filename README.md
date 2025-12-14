@@ -51,7 +51,7 @@ AI-Generated-Arabic-Text-Detection/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
+```text
 
 
 # Project Outputs
