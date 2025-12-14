@@ -17,10 +17,9 @@ This project aims to build a system capable of distinguishing between human-writ
 
 6️⃣ Best Model Selection
 
-
+'''
 # Project Structure
-
-AI-Generated-Arabic-Text-Detection/
+ط
 AI-Generated-Arabic-Text-Detection/
 │
 ├── data/
