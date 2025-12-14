@@ -116,4 +116,4 @@ AI-Generated-Arabic-Text-Detection/
                     │ Best Model Selection │
                     │     (AraBERT)        │
                     └──────────────────────┘
-
+```
