@@ -64,23 +64,4 @@ AI-Generated-Arabic-Text-Detection/
 - A structured and reproducible project workflow
   
 
-  # Report## Methodology Overview
-
-```mermaid
-flowchart TD
-    A[Dataset Collection<br/>Human and AI Texts]
-    B[Data Preprocessing<br/>Cleaning · Normalization · Tokenization]
-    C[Feature Engineering<br/>Linguistic + Statistical]
-    D[Traditional ML Models<br/>Logistic Regression<br/>Random Forest<br/>XGBoost]
-    E[Deep Learning Model<br/>AraBERT Fine-Tuning]
-    F[Model Evaluation<br/>Accuracy · Precision · Recall · F1 · ROC-AUC]
-    G[Confusion Matrix & Error Analysis]
-    H[Best Model Selection<br/>AraBERT]
-
-    A --> B --> C
-    C --> D
-    C --> E
-    D --> F
-    E --> F
-    F --> G --> H
-```
+  # Report#
