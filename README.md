@@ -28,6 +28,9 @@ AI-Generated-Arabic-Text-Detection/
 ├── data/
 │   ├── raw/
 │   └── processed/
+│       ├── train_features.csv
+│       ├── val_features.csv
+│       ├── test_features.csv
 │
 ├── notebooks/
 │   ├── phase_1_data_acquisition.ipynb
