@@ -56,13 +56,9 @@ AI-Generated-Arabic-Text-Detection/
 
 
 # Project Outputs
-
 - A trained model for detecting AI-generated Arabic text
 
 - Evaluation reports and visualizations
 
 - A structured and reproducible project workflow
-  
-
-  # Report
   
