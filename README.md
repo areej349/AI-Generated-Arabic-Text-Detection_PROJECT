@@ -63,8 +63,8 @@ AI-Generated-Arabic-Text-Detection/
   
 
   # Report#
-
-  flowchart LR
+```
+flowchart LR
 
 subgraph PIPELINE["AI-Generated Arabic Text Detection Pipeline"]
     A[Dataset Collection<br/>Human & AI Texts] --> 
@@ -80,4 +80,5 @@ subgraph PIPELINE["AI-Generated Arabic Text Detection Pipeline"]
     F --> G[Confusion Matrix<br/>& Error Analysis]
     G --> H[Best Model Selection<br/>AraBERT]
 end
+```
 
