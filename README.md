@@ -65,4 +65,55 @@ AI-Generated-Arabic-Text-Detection/
   
 
   # Report
-  
+                    ┌──────────────────────┐
+                    │   Dataset Collection │
+                    │ (Human & AI Texts)   │
+                    └─────────┬────────────┘
+                              │
+                              ▼
+                    ┌──────────────────────┐
+                    │   Data Preprocessing │
+                    │ - Cleaning           │
+                    │ - Normalization      │
+                    │ - Tokenization       │
+                    └─────────┬────────────┘
+                              │
+                              ▼
+                    ┌──────────────────────┐
+                    │ Feature Engineering  │
+                    │ - Linguistic         │
+                    │ - Statistical        │
+                    └─────────┬────────────┘
+                              │
+              ┌───────────────┴───────────────┐
+              ▼                               ▼
+┌────────────────────────┐        ┌────────────────────────┐
+│ Traditional ML Models  │        │  Deep Learning Model   │
+│ - Logistic Regression  │        │  AraBERT Fine-Tuning   │
+│ - Random Forest        │        │                        │
+│ - XGBoost              │        │                        │
+└───────────────┬────────┘        └───────────────┬────────┘
+                │                                 │
+                └───────────────┬─────────────────┘
+                                ▼
+                    ┌──────────────────────┐
+                    │   Model Evaluation   │
+                    │ - Accuracy           │
+                    │ - Precision          │
+                    │ - Recall             │
+                    │ - F1-score           │
+                    │ - ROC-AUC            │
+                    └─────────┬────────────┘
+                              │
+                              ▼
+                    ┌──────────────────────┐
+                    │ Confusion Matrices & │
+                    │   Error Analysis     │
+                    └─────────┬────────────┘
+                              │
+                              ▼
+                    ┌──────────────────────┐
+                    │ Best Model Selection │
+                    │     (AraBERT)        │
+                    └──────────────────────┘
+
